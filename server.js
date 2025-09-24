@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hệ thống quản lý đất nền hoạt động!');
+    res.send('Land management system is operational!');
 });
 
 app.listen(PORT, () => {
